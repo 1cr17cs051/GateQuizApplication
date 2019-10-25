@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startbag"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GATE QUIZ"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/start"
+        android:text="START"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/StartButton"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_category"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="226dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        ></Spinner>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_difficulty"
+        android:layout_below="@+id/spinner_category"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        ></Spinner>
+    <TextView
+        android:id="@+id/text_view_highcsore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/spinner_difficulty"
+        android:layout_marginTop="85dp"
+        android:text="High Score = 0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_highcsore"
+        android:layout_marginTop="25dp"
+        android:id="@+id/examSpinner"
+        android:background="@drawable/spinner"></Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/examSpinner"
+        android:layout_marginTop="15dp"
+        android:text="Take Exam"
+        android:id="@+id/exambutton"
+        android:background="@drawable/start"
+        />
+
+    <TextView
+        android:id="@+id/text_view_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="About"
+        android:textSize="18sp"
+        android:layout_below="@+id/text_view_highcsore"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:paddingBottom="2dp"
+        android:background="@drawable/about"
+        />
+
+</RelativeLayout>

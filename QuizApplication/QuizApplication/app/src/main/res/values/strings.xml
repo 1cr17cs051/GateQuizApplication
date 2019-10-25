@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string></string>
+    <string name="facebookid"><u>https://m.facebook.com/hithesh.kumar.7549</u></string>
+    <string name="linkedinid"><u>https://www.linkedin.com/in/hithesh-kumar-cm-343bb0176</u></string>
+    <string name="githubid"><u>https://github.com/1cr17cs051</u></string>
+    <string name="textviewvoice">"Voice enable mode""\n""press Here""\n"" and Record audio"\n""tell the correct option"</string>
+</resources>
+
